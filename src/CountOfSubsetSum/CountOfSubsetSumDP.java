@@ -1,5 +1,3 @@
-package CountOfSubsetSum;
-
 public class CountOfSubsetSumDP {
     private int[] arr;
 

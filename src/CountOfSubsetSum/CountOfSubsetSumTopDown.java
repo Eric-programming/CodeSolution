@@ -1,5 +1,3 @@
-package CountOfSubsetSum;
-
 public class CountOfSubsetSumTopDown {
     private int[] arr;
     private Integer[][] cache;

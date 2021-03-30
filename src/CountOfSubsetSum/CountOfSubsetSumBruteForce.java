@@ -1,5 +1,3 @@
-package CountOfSubsetSum;
-
 public class CountOfSubsetSumBruteForce {
     private int[] arr;
 
