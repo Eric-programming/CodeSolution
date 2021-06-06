@@ -9,7 +9,7 @@ class Solution {
         int index = 0;
         
         while(index < res.length){
-            //Traverse left
+            //Traverse right
             for(int i = left; i <= right && index < res.length; i++){
                 res[index++] = matrix[top][i];
             }
@@ -19,7 +19,7 @@ class Solution {
                 res[index++] = matrix[i][right];
             }
             right--;
-            //Traverse right
+            //Traverse left
             for(int i = right; i >= left && index < res.length; i--){
                 res[index++] = matrix[down][i];
             }
