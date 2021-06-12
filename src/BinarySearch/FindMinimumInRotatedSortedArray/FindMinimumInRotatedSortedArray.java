@@ -20,6 +20,6 @@ class Solution {
         
         
         //return the smallest value between nums[L] and nums[R]
-        return nums[R];
+        return Math.min(nums[R], nums[L]);
     }
 }
