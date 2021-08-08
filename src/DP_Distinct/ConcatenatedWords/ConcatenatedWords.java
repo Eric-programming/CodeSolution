@@ -36,13 +36,3 @@ class Solution {
     }
     
 }
-
-/**
-words = ["cat","cats","catsdogcats","dog","dogcatsdog","hippopotamuses","rat","ratcatdogcat"]
-
-Output = ["catsdogcats","dogcatsdog","ratcatdogcat"]
-
-
-Solution 1: 
-for each word, is this word cancat word (dfs backtracking)
-**/
