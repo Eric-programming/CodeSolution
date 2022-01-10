@@ -7,7 +7,6 @@ class MementoProblem
         contentEditor.Content = "2";
         contentEditor.Content = "3";
         contentEditor.Undo(); //<= What if I also want to add header with undo?
-
     }
     public class ContentEditor
     {
