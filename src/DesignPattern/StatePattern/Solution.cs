@@ -5,12 +5,6 @@ public interface ITool
     void mouseDown();
     void mouseUp();
 }
-/**
-This approach fits the Open Closed Principle (We are not allow to change code in the class but to extend)
-We can easily add new funtionality without changing existing code.
-
-For example, we can simply add a new class like Eraser class extends the ITool interface.
-**/
 public class Canvas
 {
     private ITool curTool;
