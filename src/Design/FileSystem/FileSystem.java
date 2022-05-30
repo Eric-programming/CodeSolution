@@ -54,9 +54,9 @@ class FileSystem {
         String[] arr = filePath.split("/");
         for (int i = 1; i < arr.length; i++) {
             String curString = arr[i];
-            if (!curNode.children.containsKey(curString)) {
-                curNode.children.put(curString, new TrieNode());
-            }
+//             if (!curNode.children.containsKey(curString)) {
+//                 curNode.children.put(curString, new TrieNode());
+//             }
             curNode = curNode.children.get(curString);
         }
         return curNode.content;
